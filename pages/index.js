@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
+import ContainerStyled from "../src/components/ContainerStyled";
+import Figure from '../src/components/Figure';
 
 export default function Home() {
   return (
@@ -8,10 +10,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Article Preview Component
-        </h1>
+        <ContainerStyled>
+          <Figure />
+        </ContainerStyled>
       </main>
     </div>
-  )
+  );
 }
