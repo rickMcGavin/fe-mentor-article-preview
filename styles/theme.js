@@ -9,5 +9,5 @@ export const theme = {
     white: 'hsl(0, 0%, 100%)'
 
   },
-  breakpoint: `(min-width: 768px)`
+  breakpoint: `(min-width: 900px)`
 };
